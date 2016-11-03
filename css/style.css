@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    margin: 0px;
 }
 
 .row div {
@@ -19,11 +20,14 @@ body {
     background-position: center;
 }
 
-.pacman {
+#pacman {
     background-image: url(../images/Pacman.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
 }
 
 .empty {
