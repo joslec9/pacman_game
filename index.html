@@ -1,23 +1,44 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="author" content="">
-<title>Pacman Game Project</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="PacnMan Game">
+    <meta name="author" content="Jose Lechuga">
+    <title>Pacman Game Project</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
-<body>
-<div id="container">
-<div id="world"></div>
 
-<div id="pacman"></div>
-   
-   <div id="score">0</div>
+<body>
+    <div id="container">
+        <div id="world"></div>
+        <div id="pacman"></div>
+        <div id="score">
+            <p>score:<span id="scoretext"></span></p>
+        </div>
     </div>
-<script src="js/application.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/application.js"></script>
 </body>
+
 </html>
+
+<!--
+// Todo List:
+// build world
+// Build Pacman
+// Build Score board
+// Add functionality to move around
+// Add functionality to eat coin
+// Add function to keep from entereing blue box
+// Add cherries 
+// Implement Ghost 
+// Limit number of lives 
+// Check Game Over 
+// Implememnt Game Over 
+// Reset Button 
+// High Score 
+// Multiple-->
